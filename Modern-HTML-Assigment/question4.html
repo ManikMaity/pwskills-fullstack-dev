@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Question 4</title>
+  </head>
+  <body>
+    <h1>3 ways to improve the accessibility of HTML:</h1>
+    <ol>
+      <li>
+        <p>
+          <strong>Using Alternative Text: </strong>Alternative text or alt
+          attribute in img tag is very important to improve the accessibility of
+          HTML page. It provides an alternative text instead of the image if the
+          image source link is broken or for any connection issues the image is
+          not displaying in the webpage.
+        </p>
+        <strong>Example: </strong><br />
+        <img src="./image.png" alt="this is a alternative text for image" />
+      </li>
+
+      <li>
+        <p>
+          <strong>Using Semantic elements: </strong> Using Semantic elements
+          like &lt;main&gt;, &lt;headed&gt;, &lt;footer&gt;, &lt;nav&gt; etc.
+          tags are used to make a website accessible. It describes what the tag
+          is about and what can be inside that tag. It also helps the screen
+          readers to read out the website properly and correctly.
+        </p>
+      </li>
+
+      <li>
+        <p>
+          <strong>Using Level for input: </strong> The &lt;label&gt; element is
+          used to label the text input field with the for attribute pointing to
+          the id of the associated input element. This connection between the
+          label and input ensures that screen readers announce the label when
+          the input field is focused, improving usability for individuals with
+          disabilities.
+        </p>
+        <strong>Example: </strong>
+        <form action="">
+          <label for="email">Email</label>
+          <input type="email" name="userEmail" id="email" />
+        </form>
+      </li>
+    </ol>
+  </body>
+</html>
