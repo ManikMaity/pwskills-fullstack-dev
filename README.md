@@ -1,1 +1,1 @@
-# pwskills-fullstack-dev
+# pwskills-fullstack-dev-bootcamp
