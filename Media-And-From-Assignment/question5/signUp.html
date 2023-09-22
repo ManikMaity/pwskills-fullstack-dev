@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Sign Up From</title>
+    <style>
+      input {
+        margin-bottom: 20px;
+      }
+      input[name="gen"] {
+        margin-bottom: 0;
+      }
+      body {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Sign Up Form</h1>
+
+    <form action="" method="post">
+      <label for="fname">First Name: </label> <br />
+
+      <input type="text" name="fname" id="fname" minlength="3" required /><br />
+
+      <label for="lname">Last Name: </label> <br />
+      <input type="text" name="lname" id="lname" minlength="3" required />
+      <br />
+
+      <label for="email">Email: </label> <br />
+      <input type="email" name="Email" id="email" minlength="3" required />
+      <br />
+
+      <label for="password">Password: </label> <br />
+      <input type="password" name="password" id="password" required /><br />
+
+      <label for="cPassword">Confirm Password: </label> <br />
+      <input type="Password" name="cpassword" id="cPassword" required /> <br />
+
+      <label for="age">Age: </label>
+      <input type="number" name="age" id="age" min="1" max="150" required />
+      <br />
+
+      <label for="gender">Gender:</label> <br />
+      <input type="radio" name="gen" id="male" required />
+      <label for="male">Male</label> <br />
+      <input type="radio" name="gen" id="female" required />
+      <label for="female">Female</label> <br />
+      <input type="radio" name="gen" id="other" required />
+      <label for="other">Others</label> <br />
+
+      <input
+        type="checkbox"
+        name="terms"
+        id="terms"
+        style="margin-top: 10px"
+        required
+      />
+      <label for="terms">Agree to terms and conditions.</label>
+      <br />
+      <input type="submit" style="padding: 10px 40px" value="Sign In" />
+    </form>
+  </body>
+</html>
