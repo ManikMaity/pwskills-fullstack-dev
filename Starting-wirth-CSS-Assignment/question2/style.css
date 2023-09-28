@@ -1,0 +1,56 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.peragraph__title {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.peragraph__title--dark {
+  color: #252525;
+}
+.peragraph__title--red {
+  color: rgb(233, 72, 72);
+}
+
+.peragraph__underline {
+  text-decoration: underline;
+}
+
+.peragraph__button {
+  display: inline-block;
+  padding: 10px 30px;
+  margin: 0;
+  border-radius: 8px;
+  font-weight: bold;
+  color: #252525;
+  cursor: pointer;
+}
+
+.peragraph__button--dark {
+  background-color: #000;
+  color: #fff;
+}
+.peragraph__button--light {
+  background-color: #9dd1aa;
+}
+.peragraph__button--hover:hover {
+  opacity: 0.6;
+}
+
+.peragraph__title--center {
+  text-align: center;
+}
+
+.peragraph__text {
+  font-size: 1em;
+}
+.peragraph__text--bold {
+  font-weight: bold;
+}
+.peragraph__text--italic {
+  font-style: italic;
+}
+
+.peragraph__text--muted {
+  color: #8f8f8f;
+}

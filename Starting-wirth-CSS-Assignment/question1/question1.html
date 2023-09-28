@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Question 1</title>
+
+    <!-- here is the Internal CSS  -->
+    <!-- background-color  is green  -->
+    <style>
+      div {
+        background-color: #00ff00;
+      }
+    </style>
+
+    <!-- here is the external css with 
+    background-color property blue -->
+    <link rel="stylesheet" href="./external.css" />
+  </head>
+  <body>
+    <!-- There is three different ways to add CSS in the html. Those are followings- 
+
+        1.	Inline CSS 
+        2.	Internal CSS 
+        3.	External CSS
+    -->
+
+    <!-- Cascading Orde:
+        1. Inline CSS -> Highest Priority
+        2. Internal & External CSS -> Less Priority
+        3. Default CSS -> Lowest Priority
+     -->
+
+    <!-- here is the inline css  -->
+    <!-- Here background-color is red  -->
+    <!-- Because inline css has the Highest Priority than Internal or External CSS background-color will be red  -->
+    <div
+      class="box"
+      style="height: 300px; width: 300px; background-color: #ff0000"
+    ></div>
+  </body>
+</html>

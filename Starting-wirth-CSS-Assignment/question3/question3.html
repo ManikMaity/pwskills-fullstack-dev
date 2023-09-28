@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Question 3</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <form action="">
+
+    <!-- first name  -->
+    <div class="form__div--grid">
+      <label class="form__label--bold form__lavel--bMargin" for="fName">First Name</label>
+      <input class="form__inputBox" type="text" name="fName" id="fName" placeholder="Manik" required>
+    </div>
+
+    <!-- last name  -->
+    <div class="form__div--grid">
+      <label class="form__label--bold form__lavel--bMargin" for="lName">Last Name</label>
+      <input class="form__inputBox" type="text" name="lName" id="lName" placeholder="Maity" required>
+    </div>
+
+    <!-- email  -->
+    <div class="form__div--grid">
+      <label class="form__label--bold form__lavel--bMargin" for="email">Email</label>
+      <input class="form__inputBox" type="email" name="email" id="email" placeholder="example@mail.com" required>
+    </div>
+
+    <!-- password  -->
+    <div class="form__div--grid">
+      <label class="form__label--bold form__lavel--bMargin" for="pass">Set Password</label>
+      <input class="form__inputBox" type="password" name="pass" id="pass" required>
+    </div>
+
+    <!-- age  -->
+    <div class="form__div--grid">
+      <label class="form__label--bold form__lavel--bMargin" for="age">Age</label>
+      <input class="form__inputBox" type="number" name="age" id="age" placeholder="19" required max="100" required>
+    </div>
+
+    <!-- degree  -->
+    <div>
+      <label class="form__label--bold form__lavel--bMargin" for="degree">Degree</label> <br>
+      <label for="bcom">B.Com</label>
+      <input type="radio" name="degree" id="bcom" value="bcom" checked required>
+      <label for="bca">BCA</label>
+      <input type="radio" name="degree" id="bca" value="bca" required>
+      <label for="btech">B.Tech</label>
+      <input type="radio" name="degree" id="btech" value="btech" required>
+      <label for="other">Other</label>
+      <input type="radio" name="degree" id="other" value="other" required>
+    </div>
+
+    <!-- Are you developer  -->
+    <div>
+      <input type="checkbox" name="isdev" id="isdev" value="Developer">
+      <label class="form__label--bold form__lavel--bMargin" for="isdev">Are you already a developer?</label>
+    </div>
+
+    <!-- eubmit and reset button  -->
+    <!-- opacity is used in the button for hover -->
+    <div class="form__div--grid form__div--grid--col">
+      <input class="form__button form__button--primary form__button--hover" type="submit" value="Submit">
+      <input class="form__button form__button--hover" type="reset" value="Reset">
+    </div>
+  </form>
+</body>
+
+</html>
