@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    background-color: #4d8774;
+    color: white;
+    align-items: center;
+    overflow: hidden;
+}
+
+a {
+    color: white;
+    padding: 30px;
+    display: block;
+    border: 2px solid #bfc21c;
+}
+
+a:hover {
+    color: black;
+}
+
+
+/* here is different border style for each navigation item  */
+nav ul li:nth-child(1) a {
+    border-style: dashed;
+}
+
+nav ul li:nth-child(2) a {
+    border-style: dotted;
+}
+
+nav ul li:nth-child(3) a {
+    border-style: groove;
+}
+
+nav ul li:nth-child(4) a {
+    border-style: inset;
+}
+
+nav ul li:nth-child(5) a {
+    border-style: ridge;
+}

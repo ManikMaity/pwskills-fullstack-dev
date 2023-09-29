@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0 5%;
+    color: #202020;
+}
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    padding: 50px 0;
+}
+
+p {
+    font-family: 'Nunito Sans', sans-serif;
+    margin-bottom: 20px;
+    line-height: 1.5em;
+    color: #313131;
+}
+
+img {
+    width: 100%;
+}

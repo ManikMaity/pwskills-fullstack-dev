@@ -1,0 +1,10 @@
+body {
+    height: 100vh;
+    display: grid;
+    place-content: center;
+}
+
+/* mage circular using border-radius  */
+img {
+    border-radius: 50%;
+}
