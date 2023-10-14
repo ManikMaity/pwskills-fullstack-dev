@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #fffefe83;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.2em;
+}
+
+a:hover,
+a:visited {
+    color: #fff;
+}
+
+.active {
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 60px;
+}
+
+li {
+    display: grid;
+    place-content: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #252525;
+    color: white;
+    padding: 15px 20px;
+    align-items: center;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+.nav-button {
+    padding: 8px 18px;
+    border-radius: 10px;
+    border: 1px solid #ffcd44;
+    background-color: transparent;
+}
+
+.nav-button>a {
+    color: #ffcd44;
+}
+
+p {
+    font-size: 1.2em;
+}
