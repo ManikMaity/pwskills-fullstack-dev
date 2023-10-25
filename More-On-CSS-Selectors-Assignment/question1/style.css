@@ -1,0 +1,60 @@
+/* anchor tags text color to red  */
+
+ul a {
+    color: red;
+}
+
+/* first <h2> tag text and background color change */
+
+nav>h2 {
+    color: white;
+    background-color: red;
+}
+
+/* first p tag color to red  */
+nav p:first-of-type {
+    color: red;
+}
+
+/* anchor tag with attribute "href" and change color to red and remove the text underline */
+
+a[href] {
+    color: red;
+    text-decoration: none;
+}
+
+/* anchor tag with the attribute of class name "active", change the text color, and provide the text
+style properties with underlining. */
+
+a[class="active"] {
+    color: rgb(13, 0, 128);
+    text-decoration: underline;
+}
+
+/*anchor tag with the attribute of the target whose value is " _ self" and change the background
+color. */
+
+a[target="_self"] {
+    background-color: lightgreen;
+}
+
+
+/* Target the last <p> tag and add “...” i.e. three dots after its value  */
+
+nav p:last-of-type::after {
+    content: "...";
+}
+
+/* Target the list of bullet points and change the color of the bullet points without changing the list item's value */
+
+ul li::marker {
+    color: blue;
+}
+
+/* Among the three <p> tags target the 2nd tag, select the first letter of the second tag, and change the
+color to red Also increase the font size to 30px */
+
+nav p:nth-of-type(2)::first-letter {
+    font-size: 30px;
+    color: red;
+}
