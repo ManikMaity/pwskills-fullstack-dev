@@ -1,0 +1,22 @@
+/* common button style  */
+button {
+    border: none;
+    border-radius: 0;
+    color: white;
+    padding: 3px 10px;
+}
+
+:root {
+    --primary-color: #00b7ff;
+    --secondary-color: #6c757d;
+}
+
+/* Primary button background color*/
+#primaryBtn {
+    background-color: var(--primary-color);
+}
+
+/* Secondary button background color*/
+#secondaryBtn {
+    background-color: var(--secondary-color);
+}
