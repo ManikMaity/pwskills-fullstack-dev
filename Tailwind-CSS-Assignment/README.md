@@ -11,7 +11,7 @@
 #### Mobile preview
 ![mobile-screen-output](https://github.com/ManikMaity/pwskills-fullstack-dev/assets/110734724/bd91ebde-7d56-49c0-aedd-18d242fb00e4)
 
-## Ouestion 1
+## Ouestion 3
 #### Desktop preview
 ![question3-output](https://github.com/ManikMaity/pwskills-fullstack-dev/assets/110734724/dd5dcf99-4cd3-4e7e-ab14-5db45963a787)
 
